@@ -1,0 +1,72 @@
+# -------------------------------------------------
+# 🌟 通用 Node.js / React / Vite / TypeScript 项目
+# -------------------------------------------------
+
+# Node 依赖
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# 构建输出
+dist/
+build/
+.next/
+out/
+
+# 环境配置
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 临时文件
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IDE 配置
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# TypeScript 缓存
+*.tsbuildinfo
+
+# 其他缓存
+.cache/
+.temp/
+coverage/
+*.pid
+*.seed
+*.pid.lock
+
+# Firebase / Supabase / Cloud Functions 输出
+.firebase/
+functions/lib/
+.supabase/
+
+# OS 生成文件
+ehthumbs.db
+Desktop.ini
+
+# 备份与压缩
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 日志和调试输出
+logs/
+debug.log
+error.log

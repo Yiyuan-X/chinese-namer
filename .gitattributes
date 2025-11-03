@@ -1,0 +1,12 @@
+# 强制所有文本文件使用 LF
+* text eol=lf
+
+# 保持二进制文件不变
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.svg binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
