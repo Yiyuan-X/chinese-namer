@@ -1,0 +1,16 @@
+{
+  "name": "naming-server",
+  "version": "1.1.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "body-parser": "^1.20.3",
+    "dayjs": "^1.11.13"
+  }
+}
